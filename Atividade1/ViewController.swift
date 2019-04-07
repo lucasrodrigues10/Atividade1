@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var lblSorte: UILabel!
+    @IBAction func lerSorte(_ sender: UIButton) {
+        let numRand = Int.random(in: 0 ... 2)
+        var frasesSorte:[String] = ["Nada esta tao ruim que nao possa piorar", "Siga os bons e aprenda com eles", "A maior barreira para o sucesso é o medo do fracasso."]
+        lblSorte.numberOfLines = 0
+        lblSorte.text = frasesSorte[numRand]
+    }
+    
 }
 
