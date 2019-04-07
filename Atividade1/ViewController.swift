@@ -14,7 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if (motion == .motionShake){
+            lblCompartilharFrase.text = "# clique em mim para compartilhar"
+        }
+    }
 
+
+    @IBOutlet weak var lblCompartilharFrase: UILabel!
     @IBOutlet weak var lblFuture: UILabel!
     @IBAction func lerFuturo(_ sender: UIButton) {
         // numeros aleatorios
