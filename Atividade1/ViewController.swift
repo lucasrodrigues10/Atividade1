@@ -15,12 +15,24 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var lblSorte: UILabel!
-    @IBAction func lerSorte(_ sender: UIButton) {
-        let numRand = Int.random(in: 0 ... 2)
-        var frasesSorte:[String] = ["Nada esta tao ruim que nao possa piorar", "Siga os bons e aprenda com eles", "A maior barreira para o sucesso é o medo do fracasso."]
-        lblSorte.numberOfLines = 0
-        lblSorte.text = frasesSorte[numRand]
+    @IBOutlet weak var lblFuture: UILabel!
+    @IBAction func lerFuturo(_ sender: UIButton) {
+        // numeros aleatorios
+        let numAleSujeito = Int.random(in: 0 ... 2)
+        let numAleVerbo = Int.random(in: 0 ... 2)
+        let numAleSubstantivo = Int.random(in: 0 ... 2)
+        
+        // vetores das frases
+        let frasesSujeito:[String] = ["Todos irao ", "Voce vai ", "Seu chefe ira "]
+        var frasesVerbo:[String] = ["comer ","acariciar ", "venerar "]
+        var frasesSubstantivo:[String] = ["sorvete.", "voce.", "seus amigos."]
+        
+        // concatena as strings
+        let fraseFinal = frasesSujeito[numAleSujeito]+frasesVerbo[numAleVerbo]+frasesSubstantivo[numAleSubstantivo]
+        
+        // label com a frase final
+        lblFuture.numberOfLines = 0
+        lblFuture.text = fraseFinal
     }
     
 }
