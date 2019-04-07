@@ -14,6 +14,7 @@
 		030A7EFC225A13C800C360C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030A7EFA225A13C800C360C7 /* LaunchScreen.storyboard */; };
 		030A7F07225A13C800C360C7 /* Atividade1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A7F06225A13C800C360C7 /* Atividade1Tests.swift */; };
 		030A7F12225A13C800C360C7 /* Atividade1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A7F11225A13C800C360C7 /* Atividade1UITests.swift */; };
+		030A7F20225A164300C360C7 /* luck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 030A7F1F225A164300C360C7 /* luck.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		030A7F0D225A13C800C360C7 /* Atividade1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Atividade1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		030A7F11225A13C800C360C7 /* Atividade1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atividade1UITests.swift; sourceTree = "<group>"; };
 		030A7F13225A13C800C360C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030A7F1F225A164300C360C7 /* luck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = luck.jpg; path = Assets.xcassets/luck.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				030A7EF1225A13C700C360C7 /* AppDelegate.swift */,
 				030A7EF3225A13C700C360C7 /* ViewController.swift */,
 				030A7EF5225A13C700C360C7 /* Main.storyboard */,
+				030A7F1F225A164300C360C7 /* luck.jpg */,
 				030A7EF8225A13C800C360C7 /* Assets.xcassets */,
 				030A7EFA225A13C800C360C7 /* LaunchScreen.storyboard */,
 				030A7EFD225A13C800C360C7 /* Info.plist */,
@@ -231,6 +234,7 @@
 			files = (
 				030A7EFC225A13C800C360C7 /* LaunchScreen.storyboard in Resources */,
 				030A7EF9225A13C800C360C7 /* Assets.xcassets in Resources */,
+				030A7F20225A164300C360C7 /* luck.jpg in Resources */,
 				030A7EF7225A13C700C360C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
